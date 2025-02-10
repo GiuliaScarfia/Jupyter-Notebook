@@ -1,2 +1,11 @@
-.idea/
-.ipynb_checkpoints/
+__pycache__
+*.db
+.idea
+.gitignore
+
+# Ignora tutto nella repo
+*
+
+# Ma non la cartella jupyter-bootcamp e il suo contenuto
+!jupyter-bootcamp/
+!jupyter-bootcamp/**
